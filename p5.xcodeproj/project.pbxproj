@@ -25,10 +25,13 @@
 /* Begin PBXFileReference section */
 		A37CEBF81FD0E1BC0070637B /* p5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = p5; sourceTree = BUILT_PRODUCTS_DIR; };
 		A37CEBFB1FD0E1BC0070637B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		A37CEC361FD0E2BF0070637B /* iword3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iword3.txt; sourceTree = "<group>"; };
-		A37CEC371FD0E2C30070637B /* iword4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iword4.txt; sourceTree = "<group>"; };
-		A37CEC381FD0E2C70070637B /* iword5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iword5.txt; sourceTree = "<group>"; };
-		A37CEC391FD0E2CA0070637B /* ladder.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ladder.pdf; sourceTree = "<group>"; };
+		A37CEC361FD0E2BF0070637B /* iword3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = iword3.txt; path = p5/iword3.txt; sourceTree = "<group>"; };
+		A37CEC371FD0E2C30070637B /* iword4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = iword4.txt; path = p5/iword4.txt; sourceTree = "<group>"; };
+		A37CEC381FD0E2C70070637B /* iword5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = iword5.txt; path = p5/iword5.txt; sourceTree = "<group>"; };
+		A37CEC391FD0E2CA0070637B /* ladder.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = ladder.pdf; path = p5/ladder.pdf; sourceTree = "<group>"; };
+		A37CEC3A1FD10FD00070637B /* iword3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iword3.txt; sourceTree = SOURCE_ROOT; };
+		A37CEC3B1FD10FD00070637B /* iword4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iword4.txt; sourceTree = SOURCE_ROOT; };
+		A37CEC3C1FD10FD00070637B /* iword5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iword5.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +48,10 @@
 		A37CEBEF1FD0E1BC0070637B = {
 			isa = PBXGroup;
 			children = (
+				A37CEC361FD0E2BF0070637B /* iword3.txt */,
+				A37CEC391FD0E2CA0070637B /* ladder.pdf */,
+				A37CEC371FD0E2C30070637B /* iword4.txt */,
+				A37CEC381FD0E2C70070637B /* iword5.txt */,
 				A37CEBFA1FD0E1BC0070637B /* p5 */,
 				A37CEBF91FD0E1BC0070637B /* Products */,
 			);
@@ -61,10 +68,9 @@
 		A37CEBFA1FD0E1BC0070637B /* p5 */ = {
 			isa = PBXGroup;
 			children = (
-				A37CEC361FD0E2BF0070637B /* iword3.txt */,
-				A37CEC391FD0E2CA0070637B /* ladder.pdf */,
-				A37CEC371FD0E2C30070637B /* iword4.txt */,
-				A37CEC381FD0E2C70070637B /* iword5.txt */,
+				A37CEC3A1FD10FD00070637B /* iword3.txt */,
+				A37CEC3B1FD10FD00070637B /* iword4.txt */,
+				A37CEC3C1FD10FD00070637B /* iword5.txt */,
 				A37CEBFB1FD0E1BC0070637B /* main.cpp */,
 			);
 			path = p5;
