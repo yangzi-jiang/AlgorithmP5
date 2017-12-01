@@ -139,7 +139,6 @@ void client (const vector<string>& setWords){
     if (command == "q"){
         cout << "Thank you for playing!";
     }
-    else {
     
     return;
 }
